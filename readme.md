@@ -41,11 +41,13 @@ git remote add origin your-new-repo-url
 git push -u origin master
 ```
 
-## Kya hatana/update karna hai:
-README.md     ← apne project ka likho ya delete karo
-package.json  ← name aur version update karo
-src ← src folder ke andar folder structure banao and work karo. 
----
+## 🔧 After Cloning — Kya Update Karna Hai
+
+| File/Folder | Kya Karna Hai |
+|---|---|
+| `README.md` | Delete karo aur apne project ka naya README likho |
+| `package.json` | `name` aur `version` update karo |
+| `src/` | Andar apna folder structure banao aur kaam shuru karo |
 
 
 ## 📁 Folder Structure
