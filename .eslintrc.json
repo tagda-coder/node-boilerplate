@@ -1,0 +1,20 @@
+{
+    "env": {
+    "node": true, // Node.js globals — require, process, etc.
+    "es2021": true // modern JS features
+ },
+ "extends": [
+    "eslint:recommended", // ESLint ke recommended rules
+    "plugin:prettier/recommended" // Prettier rules integrate karo
+ ],
+ "parserOptions": {
+    "ecmaVersion": "latest", // latest JS syntax support
+    "sourceType": "module" // ES modules — import/export
+ },
+ "rules": {
+    "no-console": "warn", // console.log pe warning — production mein mat chhodo
+    "no-unused-vars": "warn", // unused variable pe warning
+    "no-undef": "error", // undefined variable use kiya toh error
+    "prettier/prettier": "error" // prettier violation = ESLint error
+ }
+}
